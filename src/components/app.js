@@ -10,6 +10,7 @@ import Home from '../pages/home';
 import Page from '../pages/page';
 
 const App = () => {
+  //Holaaaaa
   return(
     <Router>
     <AnimatePresence>
