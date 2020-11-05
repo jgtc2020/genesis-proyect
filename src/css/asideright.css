@@ -1,0 +1,50 @@
+.card-aside-right{
+  width:100%;
+  border-radius:6px;
+  background:rgba(0, 168, 107,.1);
+  margin-top:100px;
+}
+.title-card-aside-right{
+  font-size:calc(1em + .2vw);
+  padding:10px;
+  font-weight: bolder;
+  background:rgba(0, 168, 107,.3);
+  border-radius:6px;
+  font-family:'Poppins', sans-serif;
+  letter-spacing:.1rem;
+  text-align: center;
+  transition:.5s;
+}
+.item-dropdown-card-aside-right{
+  font-size: calc(1em + .2vw);
+  padding:15px;
+  cursor:pointer;
+  font-family:'Poppins', sans-serif;
+  transition:.5s;
+}
+.icon-dropdown{
+  float:right;
+  transition:.5s;
+}
+
+/*dropdowns-Funtions*/
+.content-filter-1, .content-filter-2, .content-filter-3, .content-filter-4, .content-filter-5{
+  max-height:0px;
+  overflow:hidden;
+  transition:all .5s;
+  margin-left:25px;
+  font-size:20px;
+}
+.hola-active{
+max-height:100px;
+transition:all .5s;
+}
+.p{
+  font-size:15px;
+  font-family:'Poppins', sans-serif;
+}
+
+.rotate{
+  transform:rotate(-180deg);
+  transition:.5s;
+}
